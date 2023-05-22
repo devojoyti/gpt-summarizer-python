@@ -1,6 +1,6 @@
 import tiktoken
 import openai
-from gptmodels import GPTModel
+from .gptmodels import GPTModel
 
 
 class Summarizer:
