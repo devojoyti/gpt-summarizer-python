@@ -24,7 +24,7 @@ Setting the GPT model to use for summarization. Currently supports two GPT engin
 >>> summary = generator.getSummary(text="Hello! How are you?", engine="gpt-3.5-turbo")
 ```
 
-Setting other model parameters like `temperature`, `max_tokens` can be done similarly. 
+Setting other model parameters like `temperature`, `max_tokens` are optional, and can be done similarly. 
 ```sh
 >>> generator.getSummary(text="Hello! How are you?", 
                          engine="text-davinci-003", 
