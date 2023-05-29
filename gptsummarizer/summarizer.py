@@ -82,6 +82,7 @@ class Summarizer:
             summary = ""
             ptr = 0
             done = False
+            curr_chunk = 0
             while not done:
                 # If we have reached at token end, finish after this operation
                 if ptr + max_token_batch >= len(tokens):
