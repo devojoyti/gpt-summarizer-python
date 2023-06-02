@@ -9,7 +9,7 @@ README = (HERE / "README.md").read_text()
 
 setuptools.setup(
     name="gptsummarizer",
-    version="0.0.1",
+    version="0.0.5",
     author="Dev Halder",
     author_email="dev.devojoyti@gmail.com",
     description="A lightweight library to summarize long texts using GPT models",
