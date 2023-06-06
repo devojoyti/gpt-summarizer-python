@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "gptsummarizer"
-version = "0.1.1"
+version = "0.0.1"
 authors = [
     {name = "Dev Halder", email = "dev.devojoyti@gmail.com"},
 ]
@@ -19,7 +19,7 @@ classifiers = [
     ]
 dependencies = [
     "openai",
-    "tiktoken==0.4.0",
+    # "tiktoken", somehow this is throwing error, pip cannot find tiktoken
 ]
 
 [project.urls]

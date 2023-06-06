@@ -4,9 +4,24 @@
 GPT-Summarizer provides the capability of summarizing very large text corpus exceeding the token limit of normal GPT models. Of course, you can use it to summarize shorter texts as well. 
 
 ## Installation
-- Clone this repo
-- `python setup.py install` inside the cloned folder
-- Done !
+
+### Installing from PyPI (using pip)
+For some unknown reason, pip is not able to dynamically install one of the dependency `tiktoken`, so first manually install it. 
+`pip install tiktoken`
+
+Thereafter, just do 
+`pip install gptsummarizer`
+
+Done !
+
+### Installing after cloning the repo
+First, clone the repo using `git clone https://github.com/devojoyti/gpt-summarizer-python.git`
+
+Thereafter, `cd gpt-summarizer-python` or whatever directory you cloned it. 
+
+Install the library by doing `python setup.py install`
+
+Done !
 
 ## Usage
 ```sh
